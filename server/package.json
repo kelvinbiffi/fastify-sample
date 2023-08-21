@@ -1,0 +1,19 @@
+{
+  "name": "fastify-backend",
+  "version": "1.0.0",
+  "description": "A Fastify backend project with PostgreSQL and JWT.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/postgres": "^5.2.0",
+    "fastify": "^4.21.0",
+    "fastify-jwt": "^3.0.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
